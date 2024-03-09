@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    margin-top: 2rem;
+}
+
+.login_wrapper{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadaster{
+    width: 25vw;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 15px;
+    padding: 3rem;
+}
+
+#form{
+    padding-top: 1rem;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+a{
+    margin-top: 0.4rem;
+}
+    a:hover{
+        color: orange;
+    }
+
+#submit{
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    background-color: rgb(25, 161, 224);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+    #submit:hover{
+        background-color:rgb(18, 133, 187) ;
+    }
+
+.btn{
+    background: linear-gradient(90deg, rgba(89,136,255,1) 0%, rgba(42,103,255,1) 73%);
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+    .btn:hover{
+        opacity: 0.8;
+    }
+
+th{
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
