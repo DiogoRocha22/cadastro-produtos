@@ -1,0 +1,31 @@
+:root{
+    --primary:rgb(25, 161, 224) ;
+    --hovered:rgb(18, 133, 187);
+}
+
+.btn-primary{
+    background: var(--primary);
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+    .btn-primary:hover{
+        background-color: var(--hovered);
+    }
+
+.btn-light{
+    border: 1px solid var(--primary);
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+    .btn-light:hover{
+        border: 1px solid var(--hovered);
+    }
+
+th{
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
