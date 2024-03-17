@@ -23,6 +23,10 @@ function autenticar(email, senha){
 
             return
         }
+       
+        salvarToken(response.token)
+        salvarUser(response.usuario.nome)
+
         alert("Seja bem vinda " + response.usuario.nome)
         window.open('home.html', '_self');
 
