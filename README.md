@@ -33,7 +33,7 @@ Instale as dependências
 Inicie o servidor
 
 ```bash
-  npm run start
+  npm start
 ```
 
 Agora o projeto front ira funcionar.
